@@ -4,6 +4,7 @@ provider "aws" {
 
 
 variable "env" {
+  description = "for flag status"
 }
 
 
