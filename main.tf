@@ -14,6 +14,6 @@ resource "aws_s3_bucket" "demo-mcd058" {
 
 resource "aws_instance" "MCDpoc"{
     count = "${var.env == "false" ? 1: 0}"
-    ami = "ami-0b9064170e32bde34"
+    ami = "ami-052cef05d01020f1d"
     instance_type = "t2.micro" 
 }
