@@ -1,4 +1,4 @@
-name: first-workflow
+name: second-workflow
 on: push
 jobs:
     first-workflow:
@@ -8,3 +8,6 @@ jobs:
               run: |
                 echo "testing"
                 echo "multiline testing"
+            - name: test2
+              run: |
+                  echo "second test"
