@@ -1,0 +1,13 @@
+name: second-workflow
+on: push
+jobs:
+    first-workflow:
+        runs-on: ubuntu-latest
+        steps:
+            - name: test
+              run: |
+                echo "testing"
+                echo "multiline testing"
+            - name: test2
+              run: |
+                  echo "second test"
