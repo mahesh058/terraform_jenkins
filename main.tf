@@ -3,8 +3,6 @@ provider "aws" {
 }
 
 
-variable "env" {
-}
 
 
 resource "aws_s3_bucket" "demo-mcd058" {
